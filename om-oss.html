@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om oss – Sveriges experter på miniprojektorer | miniprojekter.se</title>
+  <meta name="description" content="miniprojekter.se är Sveriges specialister på portabla miniprojektorer. Läs om vår expertis, MiniLux-serien, svensk kundtjänst och varför tusentals svenskar väljer oss." />
+  <meta name="keywords" content="om oss, miniprojekter.se, miniprojektor, expert, Sverige, MiniLux, hemmabio" />
+  <link rel="canonical" href="https://www.miniprojekter.se/om-oss" />
+  <meta property="og:title" content="Om oss – Experter på miniprojektorer i Sverige" />
+  <meta property="og:description" content="Vi är specialister på portabla projektorer för svenska hem. Läs mer om miniprojekter.se." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.miniprojekter.se/om-oss" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black: #0a0a0a;
+      --white: #f5f5f0;
+      --grey: #1a1a1a;
+      --mid: #2c2c2c;
+      --accent: #e8e0d0;
+      --gold: #c9a84c;
+      --text-muted: #888;
+      --border: #333;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10,10,10,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 64px;
+    }
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 0.12em;
+      color: var(--white);
+      text-decoration: none;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--white); }
+    .nav-cta {
+      background: var(--white); color: var(--black);
+      padding: 0.45rem 1.2rem; border-radius: 2px;
+      font-weight: 600; font-size: 0.8rem; letter-spacing: 0.06em;
+      text-decoration: none; transition: background 0.2s;
+    }
+    .nav-cta:hover { background: var(--gold); }
+    .hero {
+      position: relative; overflow: hidden;
+      min-height: 55vh;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 5rem 2rem 4rem;
+      background: linear-gradient(160deg, #111 0%, #0a0a0a 60%);
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 30% 40%, rgba(201,168,76,0.08) 0%, transparent 70%);
+    }
+    .hero .container { position: relative; z-index: 1; }
+    .hero-tag {
+      font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      max-width: 900px;
+    }
+    .hero h1 em { font-style: normal; color: var(--gold); }
+    .hero-sub {
+      margin-top: 1.5rem;
+      max-width: 640px;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 300;
+    }
+    .hero-meta {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+    section { padding: 5rem 0; }
+    section + section { border-top: 1px solid var(--border); }
+    .section-label {
+      font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1; margin-bottom: 0.5rem;
+    }
+    .section-sub {
+      color: var(--text-muted);
+      max-width: 620px;
+      margin-bottom: 3rem;
+      font-weight: 300;
+    }
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .intro-text h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1;
+      margin-bottom: 1.2rem;
+    }
+    .intro-text p {
+      color: #bbb;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+    .highlight-box {
+      background: var(--grey);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 4px;
+      padding: 2rem 2.5rem;
+    }
+    .highlight-box p {
+      color: var(--accent);
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 3rem;
+    }
+    .stat {
+      background: var(--grey);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.8rem;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .pillar {
+      background: var(--grey);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2rem;
+      transition: border-color 0.3s;
+    }
+    .pillar:hover { border-color: var(--gold); }
+    .pillar-icon { font-size: 1.8rem; margin-bottom: 1rem; display: block; }
+    .pillar h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 0.6rem;
+    }
+    .pillar p {
+      color: #888;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+    .content-block h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.8rem;
+      color: var(--white);
+    }
+    .content-block p {
+      color: #aaa;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    .content-block ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+    .content-block li {
+      color: #bbb;
+      font-weight: 300;
+      font-size: 0.92rem;
+      padding: 0.5rem 0;
+      padding-left: 1.4rem;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+    }
+    .content-block li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+    }
+    .timeline {
+      display: grid;
+      gap: 0;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 2rem;
+      padding: 2rem 2.5rem;
+      background: var(--black);
+      border-bottom: 1px solid var(--border);
+    }
+    .timeline-item:last-child { border-bottom: none; }
+    .timeline-year {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .timeline-item h4 {
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+    .timeline-item p {
+      color: #888;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    .trust-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .trust-item {
+      background: var(--grey);
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .trust-icon { font-size: 1.6rem; margin-bottom: 0.6rem; display: block; }
+    .trust-item h4 { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.3rem; }
+    .trust-item p { color: #777; font-size: 0.8rem; font-weight: 300; }
+    .cta-band {
+      background: var(--grey);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 3.5rem 3rem;
+      text-align: center;
+    }
+    .cta-band h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+    }
+    .cta-band p {
+      color: var(--text-muted);
+      max-width: 520px;
+      margin: 0 auto 2rem;
+      font-weight: 300;
+    }
+    .cta-row {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--white);
+      color: var(--black);
+      padding: 0.75rem 2rem;
+      border-radius: 2px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--gold); }
+    .btn-outline {
+      display: inline-block;
+      border: 1px solid var(--border);
+      color: var(--white);
+      padding: 0.75rem 2rem;
+      border-radius: 2px;
+      font-weight: 600;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.3rem;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .footer-logo span { color: var(--gold); }
+    footer p { color: var(--text-muted); font-size: 0.8rem; }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--white); }
+    @media (max-width: 900px) {
+      .intro-grid, .two-col, .pillars { grid-template-columns: 1fr; }
+      .stats-bar, .trust-bar { grid-template-columns: 1fr 1fr; }
+      .timeline-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero { min-height: 45vh; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html"><span>MINI</span>PROJEKTER</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Produktguide</a></li>
+    <li><a class="active" href="om-oss.html">Om oss</a></li>
+  </ul>
+  <a class="nav-cta" href="https://www.miniprojekter.se">Till butiken</a>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <p class="hero-tag">Om miniprojekter.se · Uppdaterad maj 2026</p>
+    <h1>SVERIGES <em>EXPERTER</em><br>PÅ MINIPROJEKTORER</h1>
+    <p class="hero-sub">Vi är ett svenskt företag med en enda passion: att göra film, sport och underhållning tillgängligt för alla — med portabla projektorer som faktiskt levererar i svenska hem, lägenheter och sommarstugor.</p>
+    <p class="hero-meta">Specialister på MiniLux-serien · Svensk kundtjänst · Fri frakt inom Sverige</p>
+  </div>
+</section>
+
+<section id="var-story">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-text">
+        <p class="section-label">Vår berättelse</p>
+        <h2>BYGGT FÖR SVENSKA HEM</h2>
+        <p>miniprojekter.se grundades med en enkel insikt: de flesta svenskar vill ha en riktig bioupplevelse hemma, men traditionella hemmabiosystem är dyra, krångliga och tar för mycket plats.</p>
+        <p>Vi såg en möjlighet i den moderna miniprojektorn — kompakt nog att stå på ett nattduksbord, kraftfull nog att fylla en vägg med skarp bild, och prisvärd nog att vara ett självklart köp snarare än en lyxinvestering.</p>
+        <p>Idag är vi Sveriges ledande nischbutik inom portabla projektorer. Vi designar, testar och säljer vår egen MiniLux-serie — MiniLux, MiniLux Pro och MiniLux Ultra — och vi guidar tusentals kunder varje år till rätt modell för just deras behov.</p>
+      </div>
+      <div class="highlight-box">
+        <p><strong style="color:var(--gold);font-weight:600;">Vår mission:</strong> Att vara den mest pålitliga källan för miniprojektorer i Sverige — med ärliga guider, produkter vi står bakom till 100 %, och support på svenska när du behöver oss.</p>
+      </div>
+    </div>
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <p class="stat-label">MiniLux-modeller i sortimentet</p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">90</div>
+        <p class="stat-label">Dagars nöjd-kund-garanti</p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <p class="stat-label">Svensk kundtjänst</p>
+      </div>
+      <div class="stat">
+        <div class="stat-num">0 kr</div>
+        <p class="stat-label">Frakt inom Sverige</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="expertis">
+  <div class="container">
+    <p class="section-label">Varför vi är experter</p>
+    <h2 class="section-title">MER ÄN EN WEBSHOP</h2>
+    <p class="section-sub">Vi säljer inte bara projektorer — vi lever och andas portabel projektionsteknik. Här är vad som gör miniprojekter.se till experterna svenskar litar på.</p>
+    <div class="pillars">
+      <div class="pillar">
+        <span class="pillar-icon">🔬</span>
+        <h3>Egen produktutveckling</h3>
+        <p>MiniLux-serien är vår egen produktlinje. Vi har valt varje komponent — från ljuskälla och lins till ljud och mjukvara — utifrån vad som fungerar i verkliga svenska hem, inte bara på pappret.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">📖</span>
+        <h3>Oberoende guider &amp; jämförelser</h3>
+        <p>Vi publicerar detaljerade produktguider, specifikationer och ärliga jämförelser mellan våra modeller. Du ska kunna fatta ett tryggt beslut utan att behöva bli teknikexpert själv.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🇸🇪</span>
+        <h3>Byggt för Sverige</h3>
+        <p>Svenska manualer, svensk support, fri frakt med PostNord och DHL, Klarna och trygga betalningar. Vi förstår svenska konsumenters förväntningar på service, returer och leveranstider.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🎬</span>
+        <h3>Testat i verkliga miljöer</h3>
+        <p>Vi testar våra projektorer i mörka vardagsrum, ljusa lägenheter, sovrum och utomhus på sommaren — för att ge dig realistiska råd om ljusstyrka, avstånd och bildkvalitet.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">💡</span>
+        <h3>Rådgivning före köp</h3>
+        <p>Osäker på om du ska välja MiniLux, Pro eller Ultra? Vårt team hjälper dig gärna via e-post och chatt — vi rekommenderar aldrig en dyrare modell om en enklare räcker.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🛡️</span>
+        <h3>Trygghet efter köp</h3>
+        <p>90 dagars öppet köp, garanti enligt svensk konsumentlagstiftning och snabb hantering av reklamationer. Vi finns kvar när paketet är öppnat — inte bara innan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="minilux">
+  <div class="container">
+    <p class="section-label">Produktexpertis</p>
+    <h2 class="section-title">MINILUX — VÅRT FLAGGSKIP</h2>
+    <p class="section-sub">Hela vår verksamhet kretsar kring MiniLux-familjen. Vi känner varje modell utan och innan — och vi hjälper dig hitta rätt nivå.</p>
+    <div class="two-col">
+      <div class="content-block">
+        <h3>MiniLux — Ingången till hemmabio</h3>
+        <p>Perfekt för dig som vill prova projektor för första gången. Kompakt, enkel att använda och prisvärd — idealisk för filmkvällar i sovrummet eller barnrummet.</p>
+        <h3 style="margin-top:2rem;">MiniLux Pro — För den engagerade</h3>
+        <p>Högre upplösning, bättre ljud och fler anslutningsmöjligheter. Vår mest populära modell bland familjer som vill ha en fast hemmabiolösning utan att riva väggar.</p>
+      </div>
+      <div class="content-block">
+        <h3>MiniLux Ultra — Premiumupplevelsen</h3>
+        <p>Vår kraftfullaste projektor med maximal ljusstyrka, skärpa och funktioner. För filmälskaren, sportfantasten eller den som vill ha det bästa — oavsett rum och ljusförhållanden.</p>
+        <ul>
+          <li>Fullständiga specifikationer på varje modell</li>
+          <li>Jämförelsetabeller sida vid sida</li>
+          <li>Råd om skärm, avstånd och uppspelning (Netflix, Viaplay, m.m.)</li>
+          <li>Tips för utomhusbio och resor</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sverige">
+  <div class="container">
+    <p class="section-label">Sverige i fokus</p>
+    <h2 class="section-title">DITT LOKALA PROJEKTORFÖRETAG</h2>
+    <p class="section-sub">Vi är inte ett anonymt utländskt lager. miniprojekter.se är byggt för den svenska marknaden — från första klick till leverans vid dörren.</p>
+    <div class="two-col" style="margin-bottom:3rem;">
+      <div class="content-block">
+        <h3>Leverans &amp; logistik</h3>
+        <p>Alla beställningar skickas från vårt lager med spårbar frakt via PostNord och DHL. Fri frakt gäller inom Sverige — inga överraskningar i kassan.</p>
+        <p>Normal leveranstid är 1–3 arbetsdagar beroende på var i landet du bor. Du får spårningslänk direkt när paketet lämnar oss.</p>
+      </div>
+      <div class="content-block">
+        <h3>Kundtjänst på svenska</h3>
+        <p>Vårt supportteam svarar på svenska, måndag till fredag 08:00–17:00. Vi hjälper med allt från tekniska frågor och uppkoppling till returer och garantiärenden.</p>
+        <p>Kontakta oss via webbplatsens kontaktformulär eller e-post — vi strävar efter svar samma dag på vardagar.</p>
+      </div>
+    </div>
+    <div class="trust-bar">
+      <div class="trust-item">
+        <span class="trust-icon">🚚</span>
+        <h4>Fri frakt i Sverige</h4>
+        <p>PostNord &amp; DHL — alltid utan fraktkostnad.</p>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">💳</span>
+        <h4>Trygga betalningar</h4>
+        <p>Klarna, kort och SSL-krypterad checkout.</p>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">↩️</span>
+        <h4>90 dagars öppet köp</h4>
+        <p>Prova hemma i lugn och ro — enkel retur.</p>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">📜</span>
+        <h4>Svensk konsumenträtt</h4>
+        <p>Garanti och reklamation enligt svensk lag.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="historia">
+  <div class="container">
+    <p class="section-label">Vår resa</p>
+    <h2 class="section-title">FRÅN IDÉ TILL EXPERTIS</h2>
+    <p class="section-sub">miniprojekter.se har vuxit steg för steg — alltid med fokus på kvalitet, ärlighet och den svenska kunden.</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">START</div>
+        <div>
+          <h4>Visionen föds</h4>
+          <p>Vi identifierar gapet på den svenska marknaden: bra miniprojektorer till rimliga priser, med riktig support — inte bara billiga importvaror utan garanti.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">MINILUX</div>
+        <div>
+          <h4>Första generationen lanseras</h4>
+          <p>MiniLux lanseras som vår instegsmodell och får snabbt positiva omdömen för enkelhet, storlek och prisvärdhet.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">PRO</div>
+        <div>
+          <h4>MiniLux Pro — vår bästsäljare</h4>
+          <p>Utökad serie med Pro-modellen för kunder som vill ha mer prestanda. Blir vår mest sålda projektor bland svenska hushåll.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">ULTRA</div>
+        <div>
+          <h4>MiniLux Ultra &amp; komplett sortiment</h4>
+          <p>Premiumsegmentet fylls ut med Ultra. Tre tydliga modeller — en guide för varje köpare. miniprojekter.se etableras som experterna på miniprojektorer i Sverige.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2026</div>
+        <div>
+          <h4>Fortsatt fokus på kunskap &amp; service</h4>
+          <p>Uppdaterade guider, förbättrad kundtjänst och produkter optimerade efter feedback från svenska kunder. Allt uppdaterat maj 2026.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="varden">
+  <div class="container">
+    <p class="section-label">Våra värderingar</p>
+    <h2 class="section-title">DET VI STÅR FÖR</h2>
+    <div class="two-col" style="margin-top:2rem;">
+      <div class="content-block">
+        <h3>Ärlighet först</h3>
+        <p>Vi överdriver inte specifikationer och vi lovar inte mer än produkten kan leverera. Våra guider beskriver både styrkor och begränsningar — så att du vet exakt vad du får.</p>
+        <h3 style="margin-top:1.5rem;">Kvalitet vi vågar garantera</h3>
+        <p>Vi säljer bara produkter vi själva skulle använda hemma. MiniLux-serien genomgår kontinuerlig kvalitetskontroll innan den når ditt hem.</p>
+      </div>
+      <div class="content-block">
+        <h3>Kunden i centrum</h3>
+        <p>Din upplevelse slutar inte vid köpet. Vi vill att du ska njuta av din projektor i åratal — och vi finns här om något inte känns rätt.</p>
+        <h3 style="margin-top:1.5rem;">Tillgänglig hemmabio</h3>
+        <p>Bioupplevelsen ska inte vara reserverad för de med stora budgetar och dedikerade rum. En miniprojektor ska vara lika naturlig som en bra TV — bara mer magisk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt-cta">
+  <div class="container">
+    <div class="cta-band">
+      <h2>REDO ATT UPPTÄCKA MINILUX?</h2>
+      <p>Läs vår kompletta produktguide med jämförelser mellan MiniLux, Pro och Ultra — eller besök butiken för att beställa direkt.</p>
+      <div class="cta-row">
+        <a class="btn-primary" href="index.html">Läs produktguiden</a>
+        <a class="btn-outline" href="https://www.miniprojekter.se">Besök miniprojekter.se</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a class="footer-logo" href="index.html"><span>MINI</span>PROJEKTER.SE</a>
+  <nav class="footer-links">
+    <a href="index.html">Produktguide</a>
+    <a href="om-oss.html">Om oss</a>
+    <a href="https://www.miniprojekter.se">Butik</a>
+  </nav>
+  <p>&copy; 2026 miniprojekter.se — Alla rättigheter förbehållna</p>
+</footer>
+
+</body>
+</html>

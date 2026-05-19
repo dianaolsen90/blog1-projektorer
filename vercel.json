@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/om-oss", "destination": "/om-oss.html" }
+  ]
+}
