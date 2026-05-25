@@ -1,5 +1,9 @@
 {
   "rewrites": [
-    { "source": "/om-oss", "destination": "/om-oss.html" }
+    { "source": "/tester", "destination": "/tester.html" },
+    { "source": "/guider", "destination": "/guider.html" },
+    { "source": "/tips", "destination": "/tips.html" },
+    { "source": "/jamforelser", "destination": "/jamforelser.html" },
+    { "source": "/teknik", "destination": "/teknik.html" }
   ]
 }

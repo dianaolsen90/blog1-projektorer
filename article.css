@@ -1,10 +1,5 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:#f9f8f6;color:#1c1c1e;font-family:'Source Sans 3',sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
-nav{background:#1c1c1e;height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;position:sticky;top:0;z-index:100}
-.brand{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:#fff;text-decoration:none}
-.brand em{font-style:italic;color:#6bc5a0}
-.nav-back{color:rgba(255,255,255,.5);text-decoration:none;font-size:.83rem;font-weight:600;transition:color .2s}
-.nav-back:hover{color:#fff}
 .art-wrap{max-width:740px;margin:0 auto;padding:2.5rem 2rem 5rem}
 .pill{display:inline-block;font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .65rem;border-radius:3px}
 .p-test{background:#e0f4ec;color:#1e7a52}.p-guide{background:#e8f0fb;color:#2a55b0}.p-tips{background:#fef6e0;color:#a07010}.p-tek{background:#f2ecfb;color:#6030a0}.p-jmf{background:#fdecea;color:#b02020}
@@ -65,8 +60,4 @@ h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.6rem);font-
 .rel-body{padding:.9rem}
 .rel-pill{font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#1e7a52;display:block;margin-bottom:.3rem}
 .rel-title{font-family:'Playfair Display',serif;font-size:.88rem;font-weight:700;line-height:1.35;color:#1c1c1e}
-footer{background:#1c1c1e;padding:2rem;text-align:center;margin-top:3rem}
-.foot-brand{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:rgba(255,255,255,.3);margin-bottom:.3rem}
-.foot-brand em{font-style:italic;color:#6bc5a0}
-footer p{font-size:.78rem;color:rgba(255,255,255,.25)}
 @media(max-width:600px){.pc,.related-grid{grid-template-columns:1fr}.author-bio{flex-direction:column}}
