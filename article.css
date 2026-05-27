@@ -60,4 +60,11 @@ h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.6rem);font-
 .rel-body{padding:.9rem}
 .rel-pill{font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#1e7a52;display:block;margin-bottom:.3rem}
 .rel-title{font-family:'Playfair Display',serif;font-size:.88rem;font-weight:700;line-height:1.35;color:#1c1c1e}
-@media(max-width:600px){.pc,.related-grid{grid-template-columns:1fr}.author-bio{flex-direction:column}}
+.trust-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#e5e3de;border:1px solid #e5e3de;border-radius:8px;overflow:hidden;margin:1.5rem 0}
+.trust-item{background:#fff;padding:1rem;text-align:center;font-size:.8rem;color:#555;line-height:1.4}
+.trust-item strong{display:block;font-size:.9rem;color:#1c1c1e;margin-bottom:.25rem;font-weight:600}
+.article-cta{background:#1c1c1e;color:#fff;border-radius:10px;padding:2rem;text-align:center;margin:2rem 0}
+.article-cta p{margin:0 0 1rem;font-size:1.02rem;color:rgba(255,255,255,.85)}
+.article-cta a{display:inline-block;background:#6bc5a0;color:#1c1c1e;font-weight:700;padding:.75rem 1.6rem;border-radius:6px;text-decoration:none;font-size:.9rem}
+.article-cta a:hover{opacity:.9}
+@media(max-width:600px){.pc,.related-grid,.trust-bar{grid-template-columns:1fr}.author-bio{flex-direction:column}}

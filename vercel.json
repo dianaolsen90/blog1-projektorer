@@ -4,6 +4,13 @@
     { "source": "/guider", "destination": "/guider.html" },
     { "source": "/tips", "destination": "/tips.html" },
     { "source": "/jamforelser", "destination": "/jamforelser.html" },
-    { "source": "/teknik", "destination": "/teknik.html" }
+    { "source": "/teknik", "destination": "/teknik.html" },
+    { "source": "/minilux-pro-test", "destination": "/minilux-pro-test.html" },
+    { "source": "/minilux-pro-2-test", "destination": "/minilux-pro-2-test.html" },
+    { "source": "/minilux-test", "destination": "/minilux-test.html" },
+    { "source": "/minilux-vs-pro", "destination": "/minilux-vs-pro.html" },
+    { "source": "/projektor-eller-tv", "destination": "/projektor-eller-tv.html" },
+    { "source": "/ansi-lumen", "destination": "/ansi-lumen.html" },
+    { "source": "/forsta-projektor-tips", "destination": "/forsta-projektor-tips.html" }
   ]
 }
