@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, readdirSync } from "fs";
 
 const FOOT_TAGLINE_OLD =
-  "Oberoende blogg om elektronik, projektorer och smarta hem. Guider, tester och tips från erfarna experter.";
+  "Vi granskar, testar och förklarar konsumentelektronik utan reklamlöften. Alla produkter köps med egna medel och testas i verkliga hem.";
 const FOOT_TAGLINE_NEW =
   "Vi granskar, testar och förklarar konsumentelektronik utan reklamlöften. Alla produkter köps med egna medel och testas i verkliga hem.";
 const COPYRIGHT_OLD = "&copy; 2026 TeknikPulsen.se, Oberoende teknikblogg";
@@ -346,9 +346,9 @@ function footer() {
 <div><a class="foot-brand" href="index.html"><span class="logo-mark">TP</span><span class="logo-text">TeknikPulsen</span></a>
 <p class="foot-tagline">${FOOT_TAGLINE_NEW}</p></div>
 <div class="foot-col"><h4>Populära artiklar</h4><ul>
-<li><a href="minilux-pro-test.html">MiniLux Pro test</a></li>
-<li><a href="minilux-pro-2-test.html">MiniLux Pro 2 test</a></li>
-<li><a href="minilux-vs-pro.html">${COMPARISON_TITLE}</a></li>
+<li><a href="minilux-pro-test.html">MiniLux Pro recension</a></li>
+<li><a href="minilux-pro-2-test.html">MiniLux Pro 2 recension</a></li>
+<li><a href="minilux-vs-pro.html">MiniLux Pro vs MiniLux Pro 2</a></li>
 <li><a href="projektor-eller-tv.html">Projektor eller TV</a></li>
 <li><a href="ansi-lumen.html">ANSI Lumen guide</a></li>
 <li><a href="forsta-projektor-tips.html">6 saker innan köp</a></li></ul></div>
