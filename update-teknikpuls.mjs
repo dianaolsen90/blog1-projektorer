@@ -5,7 +5,7 @@ const FOOT_TAGLINE_OLD =
 const FOOT_TAGLINE_NEW =
   "Vi granskar, testar och förklarar konsumentelektronik utan reklamlöften. Alla produkter köps med egna medel och testas i verkliga hem.";
 const COPYRIGHT_OLD = "&copy; 2026 TeknikPulsen.se, Oberoende teknikblogg";
-const COPYRIGHT_NEW = "&copy; 2026 TeknikPulsen.se — Vi testar utan att kompromissa";
+const COPYRIGHT_NEW = "&copy; 2026 TeknikPulsen.se · Vi testar utan att kompromissa";
 
 const COMPARISON_TITLE = "MiniLux Pro vs MiniLux Pro 2: vilken ska du välja 2026?";
 const COMPARISON_OLD_FULL =
@@ -98,7 +98,7 @@ const TEKNIKPULS_ARTICLES = {
   },
 };
 
-/** Older ProjektorTips projector pages — dates before april 2026 */
+/** Older ProjektorTips projector pages - dates before april 2026 */
 const LEGACY_PROJECTOR_UPDATES = {
   "keystone-guide.html": { date: "19 april 2026" },
   "projiceringsduk-guide.html": { date: "14 april 2026" },
