@@ -104,6 +104,26 @@ h1{font-family:var(--serif);font-size:clamp(2rem,4.5vw,2.75rem);font-weight:400;
   .pc{grid-template-columns:1fr}
   .trust-item{min-width:calc(50% - 5px)}
 }
+.pill.p-omd{background:#fef3c7;color:#92400e}
+.review-grid{display:grid;grid-template-columns:1fr;gap:14px;margin:1.75rem 0;max-width:680px}
+.review-card{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:1.25rem 1.35rem}
+.review-card.critical{border-color:#fecaca;background:#fff5f5}
+.review-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:.65rem;flex-wrap:wrap}
+.review-name{font-weight:700;color:var(--ink);font-size:15px}
+.review-verified{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#059669;background:#ecfdf5;padding:4px 8px;border-radius:4px}
+.review-stars{color:#fbbf24;font-size:13px;margin-bottom:.5rem}
+.review-text{font-size:15px;color:var(--ink-soft);line-height:1.7;margin:0}
+.faq-section{margin:2rem 0;max-width:680px}
+.faq-label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem}
+.faq-item{border:1px solid var(--line);border-radius:8px;margin-bottom:8px;background:var(--paper);overflow:hidden}
+.faq-q{width:100%;text-align:left;background:none;border:none;padding:1rem 1.15rem;font-family:var(--sans);font-size:15px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q::after{content:'+';font-size:18px;color:var(--muted);font-weight:400}
+.faq-item.open .faq-q::after{content:'−'}
+.faq-a{display:none;padding:0 1.15rem 1.15rem;font-size:15px;color:var(--ink-soft);line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.verdict-box{background:var(--ink);color:#fff;border-radius:10px;padding:1.75rem;margin:1.75rem 0;max-width:680px}
+.verdict-box h3{font-family:var(--serif);font-size:1.35rem;font-weight:400;margin-bottom:.75rem;color:#fff}
+.verdict-box p{margin:0;font-size:15px;line-height:1.7;color:rgba(255,255,255,.85)}
 @media(max-width:640px){
   .art-wrap{padding:1.25rem 1rem;margin-top:1rem}
   .author-bio{flex-direction:column}
